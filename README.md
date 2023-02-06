@@ -1,5 +1,7 @@
 # projekt_publikwebbplats_vt22-llisora
-projekt_publikwebbplats_vt22-llisora created by GitHub Classroom
+	
+Webblänk till hemsidan <br>
+https://studenter.miun.se/~liba2103/writeable/webb3/projekt/hemsida/index.html
 
 Detta är del 3 av 3 i projektuppgiften för kursen Webbutveckling III.
 
