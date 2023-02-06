@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Container-->
+    <div class="container">
+        <header>
+            <!--Logo-->
+            <div class="logo">
+                <a href="index.html"> <img src="images/logga.svg" alt="logo"> </a>
+            </div>
+            <!--Nav-->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="mat.html">Meny</a></li>
+                    <li><a href="dryck.html">Dryckeslista</a></li>
+                    <li><a href="booking.html">Boka bord</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <!--Mobilnav-->
+            <nav id="menu-mobile">
+                <a href="javascript:void(0);" class="icon" onclick="menu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+            <nav id="links-mobile">
+                <ul>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="mat.html">Meny</a></li>
+                    <li><a href="dryck.html">Dryckeslista</a></li>
+                    <li><a href="booking.html">Boka bord</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Content-->
+        <div id="content">
+            <h1>Dryckeslista</h1>
+            <p>Saknar du något? Fråga i baren</p>
+
+            <img src="images/header_dryck.jpg" alt="bild på tallrik med pasta och bestick" class="header_food">
+            <div>
+                <h2>Öl</h2>
+
+                <!--Skriver ut drycker-->
+                <div id="beer">
+
+                </div>
+
+                <h2>Vin</h2>
+
+                <div id="wine">
+
+                </div>
+
+                <h2>Alkoholfritt</h2>
+
+                <div id="soda">
+
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer>
+            <img src="images/logga.svg" alt="logo">
+            <div class="row">
+                <div class="column">
+                    <h3>Öppetider</h3>
+                    <p>Måndag-fredag: 11 - 20<br>
+                        Lördag: 12-23<br>
+                        Söndag: Stängt</p>
+                </div>
+                <div class="column">
+                    <h3>Kontakt</h3>
+                    <p>info@willanresturang.se<br>
+                        012 - 34 56 78<br>
+                        Solvägen 42<br>
+                        123 45 Solbacken</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/drinks.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

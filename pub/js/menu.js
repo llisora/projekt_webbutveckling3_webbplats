@@ -1,0 +1,1 @@
+"use strict";function menu(){var e=document.getElementById("links-mobile");"block"===e.style.display?e.style.display="none":e.style.display="block"}

@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width     : 50%;
+    text-align: center;
+    margin    : auto;
+    margin-top: 3%;
+
+    h3 {
+        font-size: 16px;
+    }
+
+    img {
+        width : 172px;
+        height: auto;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+input {
+    width: 60%;
+  }
+  input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=time] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=date] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 60%;
+  }
